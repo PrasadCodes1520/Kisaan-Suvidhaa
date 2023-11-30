@@ -1,0 +1,44 @@
+{
+  "name": "kisan-suvidha",
+  "version": "1.0.0",
+  "description": "A MEAN stack application for farmers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/kisan-suvidha.git"
+  },
+  "keywords": [
+    "MEAN",
+    "Farmers",
+    "Government Schemes",
+    "Equipment Rental"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/kisan-suvidha/issues"
+  },
+  "homepage": "https://github.com/yourusername/kisan-suvidha#readme",
+  "dependencies": {
+    "@angular/common": "^17.0.5",
+    "@angular/core": "^17.0.5",
+    "@angular/router": "^17.0.5",
+    "@auth0/angular-jwt": "^5.2.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^5.13.21",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

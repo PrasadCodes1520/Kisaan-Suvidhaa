@@ -1,0 +1,90 @@
+/* public/css/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #4CAF50;
+    border: none;
+}
+
+.navbar a {
+    color: #ffffff;
+}
+
+.navbar a:hover {
+    color: #333333;
+}
+
+.dropdown-menu {
+    background-color: #4CAF50;
+}
+
+.dropdown-menu a {
+    color: #ffffff;
+}
+
+.dropdown-menu a:hover {
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+.home-page {
+    background-image: url('../img/farmer.jpg');
+    background-size: cover;
+    height: 500px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.home-page h1 {
+    font-size: 50px;
+}
+
+.service-page {
+    padding: 20px;
+}
+
+.service-page h2 {
+    color: #4CAF50;
+}
+
+.service-page p {
+    font-size: 18px;
+}
+
+.contact-page, .about-page {
+    padding: 20px;
+}
+
+.login-page, .register-page {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.login-page h2, .register-page h2 {
+    color: #4CAF50;
+}
+
+.login-page form, .register-page form {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
